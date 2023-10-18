@@ -1,7 +1,7 @@
 .hero-section {
-    background: url('./images/my_portfolio_picture.jpg') no-repeat center center/cover;
+    background: url('../images/my_portfolio_picture.jpg') no-repeat center center/cover;
     height: 500px; /* Adjust the height as needed */
-    color: white; /* Text color on top of the background image */
+    /* color: white; Text color on top of the background image */
     text-align: center;
     display: flex;
     flex-direction: column;
