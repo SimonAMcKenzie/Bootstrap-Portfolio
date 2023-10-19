@@ -8,3 +8,24 @@
     align-items: center;
     justify-content: center;
   }
+
+  .custom-image {
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px; /* Space between icon and text */
+  }
+
+  .icon-text-container {
+    text-align: center;
+  }
+
+  .custom-card-row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+  }
