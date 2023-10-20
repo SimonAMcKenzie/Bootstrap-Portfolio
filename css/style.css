@@ -57,4 +57,64 @@ body {
   padding-top: 20px; /* Adjust the value as needed */
 }
 
+#skills {
+    margin-top: 100px;
+}
 
+form {
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+}
+
+//* Footer Section */
+footer {
+    background-color: white; /* Background color for the footer */
+    color: black; /* Text color */
+    text-align: center;
+    padding: 10px 0; /* Padding at the top and bottom of the footer */
+    width: 100%; /* Make the footer span 100% of the width */
+    margin-top: 40px;
+}
+
+/* Footer Icons */
+footer .fab,
+footer .fas {
+    font-size: 24px; /* Set the icon size */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+/* Remove underline from anchor tags wrapping icons */
+footer .fab, 
+footer .fas {
+    text-decoration: none;
+}
+
+/* Remove underline from anchor tags wrapping icons in the footer */
+footer a.text-red,
+footer a.text-yellow,
+footer a.text-blue,
+footer a.text-green {
+    text-decoration: none;
+}
+
+/* Footer Icons */
+footer a.text-red i.fas,
+footer a.text-yellow i.fas,
+footer a.text-blue i.fab,
+footer a.text-green i.fab {
+    font-size: 30px; /* Set the icon size */
+    margin-bottom: 10px; /* Space between icon and text */
+    color: #DB4437; /* Change the color to your desired color */
+}
+
+footer a.text-yellow i.fas {
+    color: #F4B400; /* Change the color to your desired color */
+}
+
+footer a.text-blue i.fab {
+    color: #4285F4; /* Change the color to your desired color */
+}
+
+footer a.text-green i.fab {
+    color: #000000; /* Change the color to your desired color */
+}
