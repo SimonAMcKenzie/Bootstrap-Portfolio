@@ -3,11 +3,13 @@ body {
   /* Your body styles here */
 }
 
+/* Body Styles */
 body {
     font-family: 'Barlow', sans-serif;
     /* Other body styles */
   }
 
+/* Hero Section Styles */
 .hero-section {
     background: url('../images/my_portfolio_picture.jpg') no-repeat center center/cover;
     height: 500px; /* Adjust the height as needed */
@@ -19,6 +21,7 @@ body {
     justify-content: center;
   }
 
+  /* Jumbotron Styles */
   .jumbotron-text {
     text-align: center;
   }
@@ -38,42 +41,50 @@ body {
     margin-right: auto; /* Center the Jumbotron horizontally */
   }
 
+  /* Custom Image Styles */
   .custom-image {
     width: 70px;
     height: auto;
     margin-bottom: 10px; /* Space between icon and text */
   }
 
+  /* Icon Text Container Styles */
   .icon-text-container {
     text-align: center;
   }
 
+  /* Custom Card Row Styles */
   .custom-card-row {
     padding-left: 15px;
     padding-right: 15px;
   }
 
+  /* Section Heading Styles */
   .section-heading {
     text-align: center;
     margin-bottom: 30px;
     color: black;
   }
 
+  /* Text Block Styles */
   .text-block {
   padding-top: 20px; /* Adjust the value as needed */
 }
 
-#skills {
+  /* Skills Section Styles */
+  #skills {
     margin-top: 100px;
 }
 
+/* Form Styles */
 form {
     background-color: rgb(228, 228, 228);
     padding: 20px;
     border-radius: 5px;
 }
 
-//* Footer Section */
+/
+//* Footer Section Styles */
 footer {
     background-color: white; /* Background color for the footer */
     color: black; /* Text color */
@@ -104,7 +115,7 @@ footer a.text-green {
     text-decoration: none;
 }
 
-/* Footer Icons */
+/* Footer Icon Colors*/
 footer a.text-red i.fas,
 footer a.text-yellow i.fas,
 footer a.text-blue i.fab,
