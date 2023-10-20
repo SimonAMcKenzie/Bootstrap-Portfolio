@@ -115,24 +115,34 @@ footer a.text-green {
     text-decoration: none;
 }
 
-/* Footer Icon Colors*/
+/* Footer Icon Colors */
 footer a.text-red i.fas,
 footer a.text-yellow i.fas,
 footer a.text-blue i.fab,
 footer a.text-green i.fab {
     font-size: 30px; /* Set the icon size */
     margin-bottom: 10px; /* Space between icon and text */
-    color: #DB4437; /* Change the color to your desired color */
+    color: #DB4437; /* Default color */
+    transition: all 0.3s ease; /* Add smooth transition effect for color change */
 }
 
 footer a.text-yellow i.fas {
-    color: #F4B400; /* Change the color to your desired color */
+    color: #F4B400; /* Default color */
 }
 
 footer a.text-blue i.fab {
-    color: #4285F4; /* Change the color to your desired color */
+    color: #4285F4; /* Default color */
 }
 
 footer a.text-green i.fab {
-    color: #000000; /* Change the color to your desired color */
+    color: #000000; /* Default color */
+}
+
+/* Hover effect */
+footer a.text-red:hover i.fas,
+footer a.text-yellow:hover i.fas,
+footer a.text-blue:hover i.fab,
+footer a.text-green:hover i.fab {
+    color: #0F9D58; /* Change color on hover */
+    /* box-shadow: 0 0 10px #FF5733; Add outer glow effect on hover */
 }
